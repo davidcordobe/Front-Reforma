@@ -5,7 +5,7 @@ import tuFoto from '../img/perfil-con-rodillo.webp'; // Importa tu foto
 
 const Home = () => {
     return (
-        <div className="home-container container-fluid fade-enter-active">
+        <div className="home-container container fade-enter-active">
                 <h2 className="titulo-home">REFORMA 2.7</h2>
             <div className="intro-container">
                 <img src={tuFoto} alt="Tu Foto" className="imagen-tu-foto"/>
