@@ -1,0 +1,122 @@
+.title {
+    color: #000;
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.descripcion {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Estilos responsive */
+
+@media (max-width: 768px) {
+    .contact-form-container {
+        max-width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    input,
+    textarea {
+        margin-left: 0;
+    }
+}
+
+.expanded img {
+    max-width: 500px;
+    max-height: 465px;
+}
+
+.btn-prev,
+.btn-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: 1px #000;
+    font-size: 30px;
+    color: #000;
+    cursor: pointer;
+}
+
+.btn-prev {
+    left: 10px;
+}
+
+.btn-next {
+    right: 10px;
+}
+
+/* Estilos para dispositivos aún más pequeños */
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 20px;
+    }
+
+    .descripcion {
+        font-size: 14px;
+    }
+
+    .contact-form-container {
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+
+    .btn-prev,
+    .btn-next {
+        font-size: 16px;
+    }
+}
+
+/* Estilos para dispositivos más pequeños */
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 24px;
+    }
+
+    .descripcion {
+        font-size: 16px;
+    }
+
+    .contact-form-container {
+        max-width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .expanded img {
+        max-width: 100%;
+        max-height: none;
+    }
+
+    .btn-prev,
+    .btn-next {
+        font-size: 20px;
+    }
+}

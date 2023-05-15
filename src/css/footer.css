@@ -1,0 +1,59 @@
+.david {
+    color: #fff;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.reforma {
+    color: #fff;
+}
+
+span a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 2s ease-in-out;
+}
+
+.david {
+    color: inherit;
+    text-decoration: none;
+    animation: david 3s infinite;
+}
+
+@keyframes david {
+    0% {
+        color: #ff6b6b;
+    }
+
+    25% {
+        color: #ffb840;
+    }
+
+    50% {
+        color: #ffda77;
+    }
+
+    75% {
+        color: #a0e8af;
+    }
+
+    100% {
+        color: #74b9ff;
+    }
+}

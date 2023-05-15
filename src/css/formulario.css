@@ -1,0 +1,144 @@
+h2 {
+    color: #000;
+    font-weight: 700;
+    font-family: fantasy;
+}
+
+label {
+    margin: 6px;
+    font-weight: bold;
+    color: #000;
+    gap: 6px;
+}
+
+input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    margin-left: 30px;
+    color: #000;
+}
+
+textarea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    margin-left: 30px;
+    color: #000;
+}
+
+.contact-form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #000;
+    border-radius: 10px;
+}
+
+.contact-form-container label {
+    color: #000;
+    border-radius: 10px;
+}
+
+.contact-form-container input,
+.contact-form-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #000;
+}
+
+.contact-form-container textarea {
+    resize: vertical;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.form-actions button {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.form-actions button:hover {
+    background-color: #2c3e50;
+    border-color: #2c3e50;
+    color: #fff;
+}
+
+.fade-enter {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.fade-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 500ms, transform 500ms;
+}
+
+.fade-exit {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.fade-exit-active {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 500ms, transform 500ms;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+
+    100% {
+        opacity: 3;
+        transform: translateX(0);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 2s ease-in-out;
+}
+
+.instagram-link {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.instagram-link a {
+    display: inline-block;
+    color: #fff;
+    background-color: #c32aa3;
+    padding: 10px 10px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.instagram-link a:hover {
+    background-color: #ad228f;
+}
+
+
