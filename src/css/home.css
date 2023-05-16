@@ -25,12 +25,10 @@
     line-height: 1.8;
     color: #fff;
     margin-bottom: 20px;
-    background: rgba(0, 0, 0, .4);
+    background: rgba(0, 0, 0, 0.4);
     max-width: 1300px;
     text-align: justify;
-    margin-left: calc(50%+ 50px);
 }
-
 
 .imagen-container {
     display: flex;
@@ -58,7 +56,7 @@
 
 @keyframes fadeIn {
     from {
-        opacity: -1;
+        opacity: 0;
     }
 
     to {
