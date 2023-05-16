@@ -5,7 +5,7 @@ import { Card } from 'react-bootstrap';
 const producto = (props) => {
     return (
         <div className='container'>
-            <Card style={{ width: '30rem', gap: '5px', marginBottom: '10px', textAlign: 'center' }}>
+            <Card style={{ width: '10rem', gap: '5px', marginBottom: '10px', textAlign: 'center', alignItems: 'center' }}>
                 <Card.Img variant="top" src={ props.img } />
             </Card>
         </div>

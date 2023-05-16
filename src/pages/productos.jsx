@@ -41,7 +41,7 @@ const Productos = () => {
                             onClick={() => openImageModal(productIndex, 0)}
                             style={{ cursor: 'pointer' }}
                         >
-                            <Card.Img variant="top" src={producto.imagenes[0].ruta} alt={producto.imagenes[0].titulo} />
+                            <Card.Img variant="top" src={producto.imagenes[0].ruta} alt={producto.imagenes[0].titulo}/>
                             <Card.Body>
                                 <Card.Title className="title">{producto.nombre}</Card.Title>
                                 <Card.Text className="descripcion">{producto.descripcion}</Card.Text>
@@ -61,6 +61,7 @@ const Productos = () => {
                             <img
                                 src={imagenes[expandedProductIndex]?.imagenes[expandedImageIndex]?.ruta}
                                 alt={imagenes[expandedProductIndex]?.imagenes[expandedImageIndex]?.titulo}
+                                className='modal-image'
                             />
                             <button className="btn-next" onClick={showNextImage}>
                                 <BsChevronRight />
