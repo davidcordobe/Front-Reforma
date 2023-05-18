@@ -9,10 +9,9 @@ const Imagenes = [
             { id: 2, ruta: 'https://i.imgur.com/asQNT0w.jpg' },
             { id: 3, ruta: 'https://i.imgur.com/4dbvHZI.jpg' },
             { id: 4, ruta: 'https://i.imgur.com/GG8drGn.jpg' },
-            { id: 5, ruta: 'https://i.imgur.com/oy74bFr.jpg' },
-            { id: 6, ruta: 'https://i.imgur.com/TwaX0E4.jpg' },
-            { id: 7, ruta: 'https://i.imgur.com/AAT0WAo.jpg' },
-            { id: 8, ruta: 'https://i.imgur.com/KZCrn5S.jpg' }
+            { id: 5, ruta: 'https://i.imgur.com/TwaX0E4.jpg' },
+            { id: 6, ruta: 'https://i.imgur.com/AAT0WAo.jpg' },
+            { id: 7, ruta: 'https://i.imgur.com/KZCrn5S.jpg' }
         ]
     },
     {
