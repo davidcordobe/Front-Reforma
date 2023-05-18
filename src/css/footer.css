@@ -33,27 +33,4 @@ span a {
 .david {
     color: inherit;
     text-decoration: none;
-    animation: david 3s infinite;
-}
-
-@keyframes david {
-    0% {
-        color: #ff6b6b;
-    }
-
-    25% {
-        color: #ffb840;
-    }
-
-    50% {
-        color: #ffda77;
-    }
-
-    75% {
-        color: #a0e8af;
-    }
-
-    100% {
-        color: #74b9ff;
-    }
 }
