@@ -3,7 +3,7 @@ const Imagenes = [
     {
         id: 1,
         nombre: 'Yellow Furniture',
-        descripcion: 'Restauracion',
+        descripcion: 'Antes, esta pieza era un mueble rústico de madera maciza, con su encanto desgastado y una historia que contar. Sin embargo, su aspecto oscuro y apagado no encajaba con la estética fresca y luminosa que buscaba para el espacio.',
         imagenes: [
             { id: 1, ruta: 'https://i.imgur.com/iMH1mnG.jpg' },
             { id: 2, ruta: 'https://i.imgur.com/asQNT0w.jpg' },
@@ -16,8 +16,8 @@ const Imagenes = [
     },
     {
         id: 2,
-        nombre: 'Mesita',
-        descripcion: 'Restauracion',
+        nombre: 'Mesita Rustiknera',
+        descripcion: '🌿 Transformación de una joya rústica: ¡La mesita de madera maciza renace con estilo y funcionalidad! 🌟✨',
         imagenes: [
             { id: 1, ruta: 'https://i.imgur.com/1pJv0MI.jpg' },
             { id: 2, ruta: 'https://www.elmueble.com/medio/2020/05/03/aparador-rustico-verde_6f794d8d_1000x1000.jpg' },

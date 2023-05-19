@@ -21,6 +21,9 @@ const CustomNavbar = () => {
                         <Nav.Link as={Link} to="/productos">
                             Productos
                         </Nav.Link>
+                        <Nav.Link as={Link} to="/servicios">
+                            Servicios
+                        </Nav.Link>
                         <Nav.Link as={Link} to="/formulario">
                             Contacto
                         </Nav.Link>

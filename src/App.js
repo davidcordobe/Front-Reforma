@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Error from './pages/error';
 import Home from './pages/home';
 import Productos from './pages/productos';
+import Servicios from './pages/servicios';
 import Formulario from './pages/formulario';
 import NavbarActivo from './components/navbar';
 import Footer from './components/footer';
@@ -34,6 +35,7 @@ function App() {
                     <Routes>
                         <Route path="/" element={<Home />} />
                         <Route path="/productos" element={<Productos />} />
+                        <Route path="/servicios" element={<Servicios />} />
                         <Route path="/formulario" element={<Formulario />} />
                         <Route path="*" element={<Error />} />
                     </Routes>
