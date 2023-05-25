@@ -1,5 +1,5 @@
 .titulo-home {
-    color: #fff;
+    color: #879891;
     text-align: center;
     font-size: 50px;
     font-weight: bold;
@@ -23,11 +23,10 @@
     font-family: Arial, sans-serif;
     font-size: 20px;
     line-height: 1.8;
-    color: #fff;
+    color: #5e5e5e;
     padding-bottom: 20px;
     padding-right: 20px;
     padding-left: 10px;
-    background: rgba(0, 0, 0, 0.4);
     max-width: 1300px;
     text-align: justify;
     border-radius: 8px;

@@ -71,7 +71,7 @@ const ContactForm = () => {
             </Form>
 
             <div className="instagram-link text-center">
-                <h3>Seguinos en Instagram</h3>
+                <h3>Seguinos en Instagram!</h3>
                 <a href="https://www.instagram.com/reforma2.7/" target="_blank" rel="noopener noreferrer">
                     <FaInstagram size={50} className='icono'/>
                 </a>

@@ -9,8 +9,13 @@ const Productos = () => {
     const [expandedImageIndex, setExpandedImageIndex] = useState(-1);
 
     const openImageModal = (productIndex, imageIndex) => {
-        setExpandedProductIndex(productIndex);
-        setExpandedImageIndex(imageIndex);
+        const product = imagenes[productIndex];
+        if (product.imagenes[imageIndex].tipo === 'imagen') {
+            setExpandedProductIndex(productIndex);
+            setExpandedImageIndex(imageIndex);
+        } else if (product.imagenes[imageIndex].tipo === 'video') {
+            window.open(product.imagenes[imageIndex].ruta, '_blank');
+        }
     };
 
     const closeImageModal = () => {
@@ -41,7 +46,7 @@ const Productos = () => {
                             onClick={() => openImageModal(productIndex, 0)}
                             style={{ cursor: 'pointer' }}
                         >
-                            <Card.Img variant="top" src={producto.imagenes[0].ruta} alt={producto.imagenes[0].titulo}/>
+                            <Card.Img variant="top" src={producto.imagenes[0].ruta} alt={producto.imagenes[0].titulo} />
                             <Card.Body>
                                 <Card.Title className="title">{producto.nombre}</Card.Title>
                                 <Card.Text className="descripcion">{producto.descripcion}</Card.Text>
@@ -58,22 +63,32 @@ const Productos = () => {
                             <button className="btn-prev" onClick={showPrevImage}>
                                 <BsChevronLeft />
                             </button>
-                            <img
-                                src={imagenes[expandedProductIndex]?.imagenes[expandedImageIndex]?.ruta}
-                                alt={imagenes[expandedProductIndex]?.imagenes[expandedImageIndex]?.titulo}
-                                className='modal-image'
-                            />
-                            <button className="btn-next" onClick={showNextImage}>
-                                <BsChevronRight />
-                            </button>
-                        </>
-                    )}
-                </Modal.Body>
+                            {imagenes[expandedProductIndex].imagenes[expandedImageIndex].tipo === 'imagen' ? (
+                                <img
+                                    src={imagenes[expandedProductIndex].imagenes[expandedImageIndex].ruta}
+                                    alt={imagenes[expandedProductIndex].imagenes[expandedImageIndex].titulo}
+                                    className="modal-image"
+                                />
+                            ) : (
+                                <iframe
+                                    title="video"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen
+                                    width="100%"
+                                    height="315"
+                                    src={imagenes[expandedProductIndex].imagenes[expandedImageIndex].ruta}
+                                />
+                            )}
+                                    <button className="btn-next" onClick={showNextImage}>
+                                        <BsChevronRight />
+                                    </button>
+                                </>
+                            )}
+                        </Modal.Body>
             </Modal>
         </div>
     );
 };
 
 export default Productos;
-
-

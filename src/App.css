@@ -1,8 +1,5 @@
 #root {
-    background-image: url('./img/fondo.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    background-color: #d2d7db;
 }
 
 body {
