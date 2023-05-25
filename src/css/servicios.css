@@ -4,6 +4,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 10px;
+    
 }
 
 .servicio {
@@ -15,6 +16,7 @@
     margin-top: 30px;
     text-align: justify;
     border-radius: 8px;
+    background-color: rgba(0, 0, 0, .03);
 }
 
 .servicio img {
