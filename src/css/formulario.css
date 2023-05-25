@@ -42,12 +42,12 @@ textarea {
 .contact-form-container h2 {
     margin-bottom: 20px;
     text-align: center;
-    color: #000;
+    color: #879891;
     border-radius: 10px;
 }
 
 .contact-form-container label {
-    color: #000;
+    color: #879891;
     border-radius: 10px;
 }
 
@@ -59,7 +59,7 @@ textarea {
     border-radius: 5px;
     outline: none;
     background-color: rgba(255, 255, 255, 0.5);
-    color: #000;
+    color: #879891;
 }
 
 .contact-form-container textarea {
@@ -141,4 +141,9 @@ textarea {
     background-color: #ad228f;
 }
 
-
+h3 {
+    color: #879891;
+    font-weight: bold;
+    font-size: 30px !important;
+    font-family: sans-serif;
+}
