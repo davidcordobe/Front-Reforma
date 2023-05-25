@@ -10,7 +10,7 @@ const ImgServicios = [
     },
     {
         id: 2,
-        nombre: 'P',
+        nombre: 'Pintura',
         descripcion: '',
         imagenes: [{
             id: 1, ruta: 'https://i.imgur.com/oy74bFr.jpg'

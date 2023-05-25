@@ -1,5 +1,17 @@
-
-.logo{
+.logo {
     width: 85px;
     height: auto;
+}
+
+.custom-link {
+    color: #e9be49 !important;
+    font-size: 20px;
+}
+
+.custom-link:hover {
+    color: #9e8233 !important;
+}
+
+.custom-link.active {
+    color: #9e8233 !important;
 }
