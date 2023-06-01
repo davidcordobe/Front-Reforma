@@ -11,7 +11,7 @@ const ImgServicios = [
     {
         id: 2,
         nombre: 'Pintura',
-        descripcion: '',
+        descripcion: 'La pintura sobre madera es una técnica utilizada para agregar color y protección a objetos de madera. Preparar la superficie, elegir el tipo de pintura adecuada y aplicarla correctamente son pasos clave para obtener resultados duraderos y atractivos. La pintura sobre madera permite embellecer muebles y objetos decorativos, prolongando su vida útil y brindando un aspecto renovado.',
         imagenes: [{
             id: 1, ruta: 'https://i.imgur.com/oy74bFr.jpg'
         }]
