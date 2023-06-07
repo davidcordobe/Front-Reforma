@@ -27,7 +27,7 @@ body {
     border-radius: 50%;
     border: 6px solid #fff;
     border-top-color: #00BFFF;
-    animation: spin 1s infinite linear;
+    animation: spin 6s infinite linear;
 }
 
 @keyframes spin {
