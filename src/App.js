@@ -9,27 +9,30 @@ import Footer from './components/footer';
 import { useState, useEffect } from 'react';
 require('./App.css');
 
-
 function App() {
     const [isLoading, setIsLoading] = useState(true);
-
 
     useEffect(() => {
         // Simular una carga inicial
         setTimeout(() => {
             setIsLoading(false);
-        }, 2000);
+        }, 3000);
     }, []);
-
 
     return (
         <div className='app'>
-            {isLoading && (
-                <div className="loader-overlay">
-                    <div className="loader"></div>
+            {isLoading ? (
+                <div className="dot-spinner">
+                    <div className="dot-spinner__dot"></div>
+                    <div className="dot-spinner__dot"></div>
+                    <div className="dot-spinner__dot"></div>
+                    <div className="dot-spinner__dot"></div>
+                    <div className="dot-spinner__dot"></div>
+                    <div className="dot-spinner__dot"></div>
+                    <div className="dot-spinner__dot"></div>
+                    <div className="dot-spinner__dot"></div>
                 </div>
-            )}
-            {(
+            ) : (
                 <Router>
                     <NavbarActivo />
                     <Routes>
@@ -47,7 +50,3 @@ function App() {
 }
 
 export default App;
-
-
-
-
