@@ -19,6 +19,3 @@ const ImgServicios = [
 ];
 
 export default ImgServicios;
-
-
-// El tratamiento de lavado de madera consiste en limpiar y eliminar la suciedad de muebles y superficies de madera. Se utiliza agua, detergentes suaves u otros productos especializados para no dañar la madera. También se pueden aplicar productos protectores como aceites o barnices para preservar su belleza y durabilidad. El lavado de madera previene el deterioro y resalta la apariencia natural de la madera. Es importante seguir las recomendaciones del fabricante o de un especialista en cuidado de la madera para obtener los mejores resultados.

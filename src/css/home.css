@@ -52,7 +52,7 @@
 }
 
 .imagen-tu-foto {
-    width: 400px;
+    width: 400px !important;
     float: left;
     margin-right: 20px;
     height: auto;
