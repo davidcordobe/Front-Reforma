@@ -18,6 +18,9 @@ const CustomNavbar = () => {
                         <Nav.Link as={NavLink} exact to="/" activeClassName="active" className="custom-link">
                             Inicio
                         </Nav.Link>
+                        <Nav.Link as={NavLink} to="/quienSomos" activeClassName="active" className="custom-link">
+                            Sobre Nosotros
+                        </Nav.Link>
                         <Nav.Link as={NavLink} to="/productos" activeClassName="active" className="custom-link">
                             Productos
                         </Nav.Link>

@@ -2,19 +2,87 @@ const ImgServicios = [
     {
         id: 1,
         nombre: 'Lijado de Madera',
-        descripcion: 'El lijado de madera consiste en eliminar imperfecciones y capas superficiales dañadas utilizando papel de lija u otras herramientas abrasivas. Este proceso suaviza la superficie, elimina arañazos y prepara la madera para recibir nuevos acabados. Es importante realizar el lijado de manera gradual y cuidadosa, siguiendo las vetas de la madera. Una vez lijada, la madera está lista para recibir barnices, tintes u otros acabados protectores que realzan su belleza natural.',
+        descripcion: 'El lijado de madera consiste en eliminar imperfecciones y capas superficiales dañadas...',
         imagenes: [
             {
-                id: 1, ruta: 'https://i.imgur.com/mXzwCuM.jpg'
-            }]
+                id: 1,
+                ruta: 'https://i.imgur.com/mXzwCuM.jpg'
+            }
+        ]
     },
     {
         id: 2,
         nombre: 'Pintura',
-        descripcion: 'La pintura sobre madera es una técnica utilizada para agregar color y protección a objetos de madera. Preparar la superficie, elegir el tipo de pintura adecuada y aplicarla correctamente son pasos clave para obtener resultados duraderos y atractivos. La pintura sobre madera permite embellecer muebles y objetos decorativos, prolongando su vida útil y brindando un aspecto renovado.',
-        imagenes: [{
-            id: 1, ruta: 'https://i.imgur.com/oy74bFr.jpg'
-        }]
+        descripcion: 'La pintura sobre madera es una técnica utilizada para agregar color y protección a objetos de madera...',
+        imagenes: [
+            {
+                id: 1,
+                ruta: 'https://i.imgur.com/oy74bFr.jpg'
+            }
+        ]
+    },
+    {
+        id: 3,
+        nombre: 'Lavado de Madera',
+        descripcion: 'Este servicio cuenta con el proceso de quitar manchas, asperezas, y devolverle luz a la madera propiamente...',
+        imagenes: [
+            {
+                id: 1,
+                ruta: 'https://i.imgur.com/stELSDG.jpg'
+            },
+            {
+                id: 2,
+                ruta: 'https://i.imgur.com/F1zeawZ.jpg'
+            }
+        ]
+    },
+    {
+        id: 4,
+        nombre: 'Decapado de Madera',
+        descripcion: 'Este es un proceso de trabajo sobre las superficies, quita la pintura vieja...',
+        imagenes: [
+            {
+                id: 1,
+                ruta: 'https://i.imgur.com/Ww42lmw.jpg'
+            },
+            {
+                id: 2,
+                ruta: 'https://i.imgur.com/pDyLg3j.jpg'
+            }
+        ]
+    },
+    {
+        id: 5,
+        nombre: 'Reciclado de Madera',
+        descripcion: 'Esta técnica trata de un tratamiento, que es reutilizar los muebles pintando sin lijar...',
+        imagenes: [
+            {
+                id: 1,
+                ruta: 'https://i.imgur.com/zLpuuFz.jpg'
+            },
+            {
+                id: 2,
+                ruta: 'https://i.imgur.com/8LHooun.jpg'
+            },
+            {
+                id: 3,
+                ruta: 'https://i.imgur.com/3VLsCRX.jpg'
+            },
+            {
+                id: 4,
+                ruta: 'https://i.imgur.com/X934nyQ.jpg'
+            }
+        ]
+    },
+    {
+        id: 6,
+        nombre: 'Materiales Básicos',
+        imagenes: [
+            {
+                id: 1,
+                ruta: 'https://i.imgur.com/ewKkUG9.jpg'
+            }
+        ]
     }
 ];
 

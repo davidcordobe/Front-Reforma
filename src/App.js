@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Error from './pages/error';
 import Home from './pages/home';
+import QuienSomos from './pages/quienSomos';
 import Productos from './pages/productos';
 import Servicios from './pages/servicios';
 import Formulario from './pages/formulario';
@@ -37,6 +38,7 @@ function App() {
                     <NavbarActivo />
                     <Routes>
                         <Route path="/" element={<Home />} />
+                        <Route path="/quienSomos" element={<QuienSomos />} />
                         <Route path="/productos" element={<Productos />} />
                         <Route path="/servicios" element={<Servicios />} />
                         <Route path="/formulario" element={<Formulario />} />

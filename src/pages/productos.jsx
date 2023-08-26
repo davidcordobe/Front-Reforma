@@ -70,22 +70,18 @@ const Productos = () => {
                                     className="modal-image"
                                 />
                             ) : (
-                                <iframe
-                                    title="video"
-                                    frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    allowfullscreen
-                                    width="100%"
-                                    height="315"
+                                <img
                                     src={imagenes[expandedProductIndex].imagenes[expandedImageIndex].ruta}
+                                    alt={imagenes[expandedProductIndex].imagenes[expandedImageIndex].titulo}
+                                    className="modal-video"
                                 />
                             )}
-                                    <button className="btn-next" onClick={showNextImage}>
-                                        <BsChevronRight />
-                                    </button>
-                                </>
-                            )}
-                        </Modal.Body>
+                            <button className="btn-next" onClick={showNextImage}>
+                                <BsChevronRight />
+                            </button>
+                        </>
+                    )}
+                </Modal.Body>
             </Modal>
         </div>
     );
