@@ -50,6 +50,38 @@
     }
 }
 
+/* Estilo para los botones */
+.btn-anterior,
+.btn-siguiente {
+    background-color: transparent;
+    border: none;
+    color: #333;
+    font-size: 14px;
+    margin: 0;
+    /* Quita el margen para que los botones estén pegados a los extremos */
+    padding: 0;
+    /* Quita el espacio interior del botón */
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+/* Cambia el color del texto al pasar el cursor sobre los botones */
+.btn-anterior:hover,
+.btn-siguiente:hover {
+    color: #555;
+}
+
+/* Estilo para el contenedor de botones */
+.botones-imagen {
+    display: flex;
+    /* Activa el diseño flexible */
+    justify-content: space-between;
+    /* Distribuye los elementos al principio y al final del contenedor */
+    margin-top: 10px;
+    /* Añade un margen superior para separar los botones de la tarjeta */
+}
+
+
 @media (max-width: 768px) {
     .servicio {
         flex-basis: 45%;
